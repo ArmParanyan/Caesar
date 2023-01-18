@@ -15,7 +15,7 @@ public:
     int get_key() const;
     std::string encode(const std::string& text);
     std::string decode(const std::string& text);
-
+    
 private:
     int m_key;
 };
